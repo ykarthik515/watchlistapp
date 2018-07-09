@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+     
+        
+    <!--      <listener class-name="Academy.listeners"/>   -->
+         <listener class-name="resorces1.ExtentReporterNG"/>
+         
+
+ </listeners>
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="com.clari5.app.WatchlistUpload3"/>
+    </classes>
+  </test> 
+  <!-- Test -->
+  <!-- 
+  <test name="test2">
+  <classes>
+      <class name="com.clari5.app.WatchListRuleCreation"/>
+  </classes>
+  </test>
+  
+  
+  <test name="test3">
+  <classes>
+      <class name="com.clari5.app.CustomerOnBoarding"/>
+  </classes>
+  </test>
+  
+  
+  <test name="test4">
+  <classes>
+      <class name="com.clari5.app.SwiftRuleCreation"/>
+  </classes>
+  </test>
+  
+  
+  <test name="test5">
+  <classes>
+      <class name="com.clari5.app.PaymentScreening"/>
+  </classes>
+  </test>
+  
+ -->  
+</suite> <!-- Suite -->

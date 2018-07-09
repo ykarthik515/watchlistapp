@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="resorces1.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="test2(failed)">
+    <classes>
+      <class name="com.clari5.app.WatchListRuleCreation">
+        <methods>
+          <include name="initialize"/>
+          <include name="closeBrowser"/>
+          <include name="wlRuleCreation"/>
+        </methods>
+      </class> <!-- com.clari5.app.WatchListRuleCreation -->
+    </classes>
+  </test> <!-- test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
